@@ -1,26 +1,42 @@
 @import "tailwindcss";
 
+/*
+  Atlas design tokens: the "observatory" palette.
+  Every colour on the site comes from here, so changing the mood later
+  means editing one place, not a hundred.
+*/
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --space: #05070d;   /* page background: deep night sky */
+  --surface: #0c111c; /* cards and panels */
+  --line: #1c2433;    /* hairline borders */
+  --ink: #e8ecf4;     /* main text */
+  --muted: #8a93a6;   /* secondary text */
+  --star: #f5c77e;    /* warm starlight: highlights, verified things */
+  --nebula: #7dd3fc;  /* cool accent: links, interactive things */
 }
 
+/* Makes the tokens usable as Tailwind classes: bg-space, text-ink, text-star, border-line … */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-space: var(--space);
+  --color-surface: var(--surface);
+  --color-line: var(--line);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-star: var(--star);
+  --color-nebula: var(--nebula);
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-display: var(--font-instrument-serif); /* use as: font-display */
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--space);
+  color: var(--ink);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+::selection {
+  background: var(--star);
+  color: var(--space);
 }
