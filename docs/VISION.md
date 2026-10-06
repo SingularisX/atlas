@@ -24,7 +24,7 @@
 
 ### Private cockpit (login required)
 - **Today:** daily routine, mission for the day, focus timer that logs itself, daily log, streaks with fair grace rules.
-- **Exams:** GATE EC + RA now, more exams added later with the same logic. Exam → subject → topic, and each topic has a status (not started, studied, tested, cleared). Topic tests, full mocks with GATE pattern and negative marking, score trends, weak-area detection, countdown.
+- **Exams:** Exam → subject → topic, and each topic has a status (not started, studied, tested, cleared). Topic tests, full mocks with GATE pattern and negative marking, score trends, weak-area detection, countdown.
 - **Learn:**
   - Domain tracks: silicon, RTL, architecture, verification, AI hardware, robotics.
   - CS fundamentals: DSA, OS, networks, DBMS, architecture.
@@ -74,9 +74,4 @@
 | 2 · Art | M.Tech year 1 | 3D star map, Brain gym, morph transitions, PWA |
 | 3 · Forever | Through M.Tech + career | Research log, new exams, every new project and achievement |
 
-## 6. Working rules
 
-- I scaffold the boilerplate. Sutirtha writes the logic and explains it.
-- Every session ends with a 3-question check.
-- Atlas tracks its own build as Project #1.
-- GATE time is protected. Atlas lives inside the 1-hour skills slot.
