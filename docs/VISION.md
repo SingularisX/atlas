@@ -73,5 +73,3 @@
 | 1 · Brain | Feb – Jul 2027 | Companion AI, test engine, job readiness, public face + domain, SEO |
 | 2 · Art | M.Tech year 1 | 3D star map, Brain gym, morph transitions, PWA |
 | 3 · Forever | Through M.Tech + career | Research log, new exams, every new project and achievement |
-
-

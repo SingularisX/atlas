@@ -6,3 +6,6 @@
 3. **Problem faced** Commit upload to github failed once because git asked for username and password but github rejected it. 
 4. **FIX** We used the browser sign-in, git is instructed to use the browser for handover a secure token from github to git.   
 
+## 14.10.2026 Session 2
+1. Built a Next.js app
+2. Built the landing page 
